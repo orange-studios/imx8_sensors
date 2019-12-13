@@ -1,0 +1,8 @@
+config INPUT_LTR559
+	tristate "LITEON OPTOELECTRONICS LTR559 sensor"
+	depends on I2C && SYSFS
+	help
+	   This driver support the LITEON OPTOELECTRONICS LTR559 sensor.
+
+	   To compile this driver as a module, choose M here. The module
+	   will be called lsm6dsl.
